@@ -22,8 +22,8 @@ This is a real-time chat application built for the AuthCast assignment. Users ca
 
 ### 1. Clone the Repository
 
-git clone https://github.com/<your-username>/realtime-chat-app.git
-cd realtime-chat-app
+- git clone https://github.com/<your-username>/realtime-chat-app.git
+- cd realtime-chat-app
 
 ### 2. Run the project
-npm run dev
+npm install
