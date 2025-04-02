@@ -1,12 +1,29 @@
-# React + Vite
+# Real-Time Chat App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a real-time chat application built for the AuthCast assignment. Users can create chat rooms, join existing rooms, and chat with others in real-time. New messages are displayed instantly, and a sound notification plays when a new message arrives (after enabling sounds).
 
-Currently, two official plugins are available:
+## Tech Stack
+- **Frontend**: React (using Vite)
+- **Backend/Database**: Supabase (real-time database)
+- **Dependencies**: `@supabase/supabase-js`, `react-router-dom`
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+- Create new chat rooms.
+- See a list of available chat rooms and join any room.
+- Send and receive messages in real-time within a chat room.
+- All users in the same room see incoming messages instantly.
+- A notification sound plays for new messages (after clicking "Enable Sounds" to comply with browser autoplay policies).
 
-## Expanding the ESLint configuration
+## Prerequisites
+- **Node.js** (v16 or higher) and **npm** installed on your machine.
+- A **Supabase** account and project set up (see setup instructions below).
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Setup Instructions
+
+### 1. Clone the Repository
+
+git clone https://github.com/<your-username>/realtime-chat-app.git
+cd realtime-chat-app
+
+### 2. Run the project
+npm run dev
